@@ -1,7 +1,7 @@
 ﻿using AwesomeEmployees.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace AwesomeEmployees
+namespace AwesomeEmployees.Data
 {
     public class DatabaseContext : DbContext
     {

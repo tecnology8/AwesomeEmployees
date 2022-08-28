@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Options;
 
-namespace AwesomeEmployees
+namespace AwesomeEmployees.Helpers
 {
     public class DatabaseOptionsSetup : IConfigureOptions<DatabaseOptions>
     {

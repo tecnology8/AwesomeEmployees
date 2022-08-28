@@ -1,9 +1,8 @@
-using AwesomeEmployees;
-using Microsoft.EntityFrameworkCore;
-using AwesomeEmployees.Models;
-using Microsoft.Extensions.Options;
+using AwesomeEmployees.Data;
+using AwesomeEmployees.Helpers;
 using AwesomeEmployees.Services;
-using AwesomeEmployees.Controllers;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
